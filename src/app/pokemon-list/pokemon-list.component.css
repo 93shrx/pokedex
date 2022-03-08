@@ -1,0 +1,26 @@
+.pokemon-grid{
+   display:flex;
+   align-items:center;
+   justify-content:center;
+   flex-wrap: wrap;
+    padding:20px;
+}
+
+.pokemon-grid .box{
+    width:22%;
+    height:300px;
+    box-shadow: 1px 2px 5px rgba(0,0,0, 0.3);
+    margin:15px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.pokemon-grid .box img{
+    height:130px;
+}
+
+pagination-controls{
+ text-align:center;   
+}
